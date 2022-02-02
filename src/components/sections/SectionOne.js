@@ -10,7 +10,7 @@ import { useScrolling } from '../../utils/scrolling'
 
 export default function (){
     const [scroll] = useScrolling()
-    const [scrollSwitch] = useScrollSwitch(scroll, 10)
+    const [scrollSwitch] = useScrollSwitch(scroll, 8)
 
     return <section className='sec_1'> 
     {!scrollSwitch && <Home /> }
