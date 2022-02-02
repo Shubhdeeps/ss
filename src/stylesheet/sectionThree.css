@@ -1,0 +1,25 @@
+.sec_3{
+    background-color: #00071F;
+    height: 100vh;
+    
+}
+
+.sec_3 div{ 
+    align-self: center;
+    width: 60%;
+    height: 80%;
+
+    display: flex;
+    align-items: center;
+}
+.sec_3 p{
+    width: 40%;
+    text-align: left;
+    font-size: 32px;
+}
+
+
+.sec_3 span{
+    color: #FC0236;
+    font-weight: 700;
+}

@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway:900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap');
+
+body{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Open Sans Condensed', sans-serif;
+    color: rgb(218, 218, 218);
+}
+.background{
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    z-index: 2;
+    opacity: 0.3;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,139,109,1) 86%, rgba(45,203,235,1) 100%);
+}
+.App{
+    min-height: 100vh;
+    overflow: hidden;
+}
+
+section{
+    position: relative;
+    z-index: 2;
+    width: 100vw;
+    overflow: hidden;
+    
+    display: flex;
+    justify-content: center;
+}
+
+canvas{
+    position: fixed;
+    z-index: 1;
+    width: 100vw;
+    height: 100vh;
+}
+
+.empty_section{
+    height: 50vh;
+}
+
+.empty_section img{
+    width: 100%;
+    position: absolute;
+    bottom: 0px;
+}
+
+#image_three{
+    height: 150px;
+   }
+
+#image_four{
+    height: 70px;
+}
+   
+#image_four_upside{
+    height: 70px;
+    position: absolute;
+    transform: rotate(180deg);
+    top: 0px;
+}
+
+.space{
+    position: relative;
+    background-color: #00071F;
+    width: 100vw;
+    height: 20vh;
+}

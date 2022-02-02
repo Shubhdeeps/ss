@@ -1,0 +1,86 @@
+
+.sec_4{
+    overflow: visible;
+    height: 20vh;
+    background-color: #00071F;
+}
+
+.sec_4 div{ 
+    align-self: center;
+    width: 60%;
+    height: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.sec_4 p{
+    font-size: 32px;
+}
+
+.sec_4 span{
+    color: #FC0236;
+    font-weight: 700;
+}
+
+.sec_4 img{
+    transform: rotate(180deg);
+    position: absolute;
+    width: 100%;
+    bottom: -40px;
+}
+
+.project_container{
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+    width: 80%;
+    height: 50vh;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.projects{
+    height: 100%;
+    width: 40%;
+    padding: 5px;
+
+}
+
+.projects h1{
+    font-weight: 700;
+    font-size: 32px;
+}
+.projects p{
+    font-size: 26px;
+}
+.projects a{
+    background-color: #FC0236;
+    cursor: pointer;
+    width: 280px;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-weight: 700;
+    border-radius: 5px;
+    border: none;
+    text-align: center;
+    font-size: 22px;
+    text-decoration: none;
+}
+.projects a:hover{
+    background-color: #ff3d64;
+}
+.projects a:active{
+    background-color: #d8002b;
+}
+.project_container img{
+    width: 60%;
+}
+
+a, a:hover, a:focus, a:active {
+    text-decoration: none;
+    color: inherit;
+}
