@@ -11,8 +11,6 @@ import EmptySection from './components/sections/EmptySection';
 
 
 function App() {
-
-
   return (
     <div className="App">
         <Canvas />

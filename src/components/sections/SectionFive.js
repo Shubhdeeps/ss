@@ -1,5 +1,4 @@
 import '../../stylesheet/sectionFive.css'
-import wave4 from '../../assets/wave4.png'
 import fb from '../../assets/fb.png'
 import github from '../../assets/github.png'
 import linked from '../../assets/linkedIn.png'

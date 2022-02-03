@@ -1,5 +1,4 @@
-import { useRef } from 'react';
-import { useEffect } from 'react/cjs/react.development';
+import { useRef, useEffect } from 'react';
 import pfp from '../assets/person.png'
 
 
@@ -7,9 +6,10 @@ import pfp from '../assets/person.png'
 export default function Home() {
     const ref1 = useRef(null)
     const ref2 = useRef(null)
-
+    let elts;
+    
     useEffect(() => {
-        const elts = {
+        elts = {
             text1: ref1.current,
             text2: ref2.current
         };

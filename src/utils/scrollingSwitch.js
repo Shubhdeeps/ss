@@ -1,6 +1,6 @@
-const { useState, useEffect } = require("react")
+import { useState, useEffect } from "react"
 
-export const useScrollSwitch = (scroll, value, value2 = undefined) => {
+export const useScrollSwitch = (scroll, value) => {
 
     const [sectionOneSwitch, setSectionOneSwitch] = useState(false)
 
@@ -10,18 +10,6 @@ export const useScrollSwitch = (scroll, value, value2 = undefined) => {
       }else{
         setSectionOneSwitch(false)
       }
-
-      if(value2 !== undefined){
-        if(scroll > value && scroll < value2){
-          setSectionOneSwitch(true)
-        }else{
-          setSectionOneSwitch(false)
-        }
-      }
     }, [scroll])
-  
-
-
-
     return[sectionOneSwitch]
 }
