@@ -33,14 +33,14 @@ const SectionFive = () => {
                 </div>
             </div>
         </div>
-        <img src={wave4} alt='wave' />
+        <p id='logo_sec5'>Created by Shubhdeep Singh</p>
     </section>
 }
 
 export default SectionFive;
 
 const Contact = ({ contact }) => {
-    return <div>
+    return <div onClick={() => window.open(contact.link)} >
     <img src={contact.image} alt='social' />
     <p> {contact.name} </p>
     </div>

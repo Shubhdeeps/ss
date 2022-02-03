@@ -2,45 +2,42 @@
     height: 100vh;
     width: 70%;
     position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .home_text_container{
     font-family: "Raleway", sans-serif;
     width: 30%;
-    height: 20%;
-    
-    position: relative;
-    top: 50%;
-    left: 30%;
-    transform: translate(-50%, -50%);
+    height: 20%; 
 }
 .home_text_container h3{
+    display: inline;
     color: wheat;
     font-size: 25pt;
     user-select: none;
 }
+
 .home_image_container{
     height: 45%;
     width: 40%;
-    position: relative;
-    left: 50%;
+
     display: flex;
     justify-content: center;
-
+    align-items: center;
 }
 
 .home_image_container img{
     width: 300px !important;
     height: 300px !important;
+    position: unset !important;
 }
 
 #container {
-    position: absolute;
     margin: auto;
-    width: 100vw;
+    width: 100%;
     height: 80pt;
-    top: 0;
-    bottom: 0;
 
     filter: url(#threshold) blur(0.6px);
 }
@@ -48,7 +45,8 @@
 #text1,
 #text2 {
     position: absolute;
-    width: 350px;
+    z-index: 3;
+    width: 100%;
     color: wheat;
     font-size: 30pt;
     user-select: none;
@@ -59,11 +57,71 @@
     height: 100vh;
 }
 
-.sec_1 img{
-    
+.sec_1 img{ 
     height: 30%;
     width: 100%;
     position: absolute;
     bottom: 0px;
 }
 
+@media screen and (max-width: 1200px){
+    .media_container{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 800px){
+    #text1,
+    #text2 {
+        font-size: 20pt;
+    }
+    .home_text_container h3{
+        font-size: 20pt;
+    }
+    
+    .sec_1 img{ 
+        width: 130%;
+    }
+
+}
+
+@media screen and (max-width: 600px){
+    .media_container{
+        flex-direction: column-reverse;
+        justify-content: flex-end;
+        padding-top: 70px;
+    }   
+    .sec_1 img{ 
+        width: 200%;
+    } 
+    .home_image_container img{
+        width: 200px !important;
+        height: 200px !important;
+    }
+    .home_text_container{
+        width: 40%;
+        height: 15%;
+    }
+    .home_image_container{
+        height: 35%;
+    }
+    #text1,
+    #text2 {
+        font-size: 15pt;
+    }
+    .home_text_container h3{
+        font-size: 15pt;
+    }
+}
+
+
+@media screen and (max-width: 400px){
+ 
+    .home_text_container{
+        width: 45%;
+        height: 15%;
+    }
+    .sec_1 img{ 
+        width: 250%;
+    } 
+}

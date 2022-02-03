@@ -69,3 +69,23 @@ canvas{
     width: 100vw;
     height: 20vh;
 }
+
+
+
+@media screen and (max-width: 800px){
+    .empty_section img{
+        width: 130%;
+    }
+}
+
+@media screen and (max-width: 600px){
+    .empty_section img{
+        width: 200%;
+    }
+}
+
+@media screen and (max-width: 400px){
+    .empty_section img{
+        width: 250%;
+    }
+}

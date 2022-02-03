@@ -10,16 +10,66 @@
     height: 80%;
 
     display: flex;
+    flex-direction: row;
     align-items: center;
+    justify-content: space-around;
+
 }
 .sec_3 p{
     width: 40%;
     text-align: left;
     font-size: 32px;
+
 }
 
 
 .sec_3 span{
     color: #FC0236;
     font-weight: 700;
+}
+
+@media screen and (max-width: 1300px){
+    .sec_3 div div{
+        width: 60% !important;
+        height: fit-content !important;
+    }
+}
+@media screen and (max-width: 821px){
+    .sec_3 div:first-child{ 
+        width: 90%;
+    }
+    .sec_3 p{
+        padding: 5px;
+        font-size: 22px;
+    
+    }
+    .sec_3 div div{
+        width: 50% !important;
+        height: fit-content !important;
+    }
+}
+@media screen and (max-width: 600px){
+    .sec_3 p{
+        width: 80%;
+        padding: 5px;
+        font-size: 18px;
+    }
+    .sec_3 div{
+        flex-direction: column;
+        justify-content: center;
+    }
+    .sec_3 div div{
+        width: 80% !important;
+    }
+    
+}
+@media screen and (max-width: 400px){
+    .sec_3 p{
+        width: 90%;
+        padding: 5px;
+        font-size: 16px;
+    }
+    .sec_3 div div{
+        width: 90% !important;
+    }
 }

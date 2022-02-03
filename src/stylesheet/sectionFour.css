@@ -16,18 +16,12 @@
 }
 .sec_4 p{
     font-size: 32px;
+
 }
 
 .sec_4 span{
     color: #FC0236;
     font-weight: 700;
-}
-
-.sec_4 img{
-    transform: rotate(180deg);
-    position: absolute;
-    width: 100%;
-    bottom: -40px;
 }
 
 .project_container{
@@ -47,7 +41,6 @@
     height: 100%;
     width: 40%;
     padding: 5px;
-
 }
 
 .projects h1{
@@ -83,4 +76,93 @@
 a, a:hover, a:focus, a:active {
     text-decoration: none;
     color: inherit;
+}
+
+@media screen and (max-width: 1200px){
+    .project_container{
+        width: 90%;
+        height: 60vh;
+    }
+}
+@media screen and (max-width: 1000px){
+    .sec_4 div{ 
+        width: 70%;
+    }
+}
+@media screen and (max-width: 912px){
+    .sec_4 div{ 
+        width: 90%;
+    }
+    .project_container{
+        height: 40%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .projects h1{
+        font-size: 28px;
+    }
+    .projects p{
+        font-size: 22px;
+    }
+    .projects a{
+        font-size: 18px;
+    }
+    .sec_4 p{
+        font-size: 28px;
+    
+    }
+    .project_container img{
+        width: 80%;
+        height: fit-content;
+    }
+    
+    .projects{
+        height: 30%;
+        width: 80%;
+    }
+}
+@media screen and (max-width: 700px){
+    .project_container img{
+        width: 90%;
+        height: 60%;
+    }
+    
+    .projects{
+        height: 30%;
+        width: 90%;
+    }
+  
+    
+}
+@media screen and (max-width: 600px){
+    .project_container img{
+        width: 98%;
+        height: fit-content;
+    }
+    .sec_4 p{
+        font-size: 24px;
+    }
+}
+
+
+@media screen and (max-width: 500px){
+    .project_container{
+        height: 70vh;
+    }
+    .projects{
+        height: 40%;
+        width: 96%;
+    }
+    .projects h1{
+        font-size: 24px;
+    }
+    .projects p{
+        font-size: 18px;
+    }
+    .projects a{
+        font-size: 14px;
+    }
 }

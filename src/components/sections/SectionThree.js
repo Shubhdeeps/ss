@@ -24,7 +24,7 @@ export default function SectionThree(){
 
     return(<>
     <section className='sec_3'>
-        <div>
+        <div id='lottie_container'>
             <Lottie 
                 options={defaultOptions(student)}
                 height={400}
