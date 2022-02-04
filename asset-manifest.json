@@ -1,22 +1,22 @@
 {
   "files": {
     "main.css": "/ss/static/css/main.0fc7038b.css",
-    "main.js": "/ss/static/js/main.5eef7963.js",
-    "static/media/person.png": "/ss/static/media/person.744ce836781b9a4f0973.png",
-    "static/media/weather.png": "/ss/static/media/weather.8413b9f1b54a0c46f52b.png",
-    "static/media/enum1.png": "/ss/static/media/enum1.1884697110f9695825f9.png",
-    "static/media/candy.png": "/ss/static/media/candy.fa282aad3f5606b571da.png",
-    "static/media/enum2.png": "/ss/static/media/enum2.7de2cb437569c806f762.png",
-    "static/media/resume.png": "/ss/static/media/resume.7399204ad412861affdf.png",
-    "static/media/astro.png": "/ss/static/media/astro.07ff970cff4689f862a2.png",
-    "static/media/enumApi.png": "/ss/static/media/enumApi.a226a40dfaa68bc0ea79.png",
+    "main.js": "/ss/static/js/main.9e7a87e1.js",
+    "static/media/person.svg": "/ss/static/media/person.bcaca93b86cdae0dc2109737ddf65e65.svg",
+    "static/media/weather.svg": "/ss/static/media/weather.1caaf0e01abd0a31ae72e50123be51b6.svg",
+    "static/media/enum1.svg": "/ss/static/media/enum1.7bfb6e6b722522fb4d3bd0a42390580b.svg",
+    "static/media/candy.svg": "/ss/static/media/candy.6c39e96d5d68375583812406b9c08c19.svg",
+    "static/media/resume.svg": "/ss/static/media/resume.9f53c1ebd7d5fd76058f0ac2f84f1b01.svg",
+    "static/media/enum2.svg": "/ss/static/media/enum2.f4ee429ebffb6318d6b73ea38122cd47.svg",
+    "static/media/enumApi.svg": "/ss/static/media/enumApi.e360c8fdc4b09d83f676d15c5f181653.svg",
+    "static/media/astro.svg": "/ss/static/media/astro.62415e100f0fff3724fa02a723f8069b.svg",
     "static/media/todo.png": "/ss/static/media/todo.81ba43513e98921ed7b8.png",
     "index.html": "/ss/index.html",
     "main.0fc7038b.css.map": "/ss/static/css/main.0fc7038b.css.map",
-    "main.5eef7963.js.map": "/ss/static/js/main.5eef7963.js.map"
+    "main.9e7a87e1.js.map": "/ss/static/js/main.9e7a87e1.js.map"
   },
   "entrypoints": [
     "static/css/main.0fc7038b.css",
-    "static/js/main.5eef7963.js"
+    "static/js/main.9e7a87e1.js"
   ]
 }
