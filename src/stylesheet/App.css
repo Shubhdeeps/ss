@@ -42,26 +42,6 @@ canvas{
     height: 50vh;
 }
 
-.empty_section img{
-    width: 100%;
-    position: absolute;
-    bottom: 0px;
-}
-
-#image_three{
-    height: 150px;
-   }
-
-#image_four{
-    height: 70px;
-}
-   
-#image_four_upside{
-    height: 70px;
-    position: absolute;
-    transform: rotate(180deg);
-    top: 0px;
-}
 
 #svg_upside{
     position: absolute;
@@ -81,22 +61,3 @@ canvas{
     height: 20vh;
 }
 
-
-
-@media screen and (max-width: 800px){
-    .empty_section img{
-        width: 130%;
-    }
-}
-
-@media screen and (max-width: 600px){
-    .empty_section img{
-        width: 200%;
-    }
-}
-
-@media screen and (max-width: 400px){
-    .empty_section img{
-        width: 250%;
-    }
-}
