@@ -63,6 +63,17 @@ canvas{
     top: 0px;
 }
 
+#svg_upside{
+    position: absolute;
+    height: 50%;
+    width: 120vw;
+}
+#svg_normal{
+    position: absolute;
+    bottom: 0px;
+    height: 30%;
+    width: 120vw;
+}
 .space{
     position: relative;
     background-color: #00071F;
