@@ -1,12 +1,12 @@
 import '../../stylesheet/sectionFour.css'
 
-import astro from '../../assets/astro.png'
-import candy from '../../assets/candy.png'
-import enum1 from '../../assets/enum1.png'
-import enum2 from '../../assets/enum2.png'
-import enumApi from '../../assets/enumApi.png'
-import resume from '../../assets/resume.png'
-import weather from '../../assets/weather.png'
+import astro from '../../assets/astro.svg'
+import candy from '../../assets/candy.svg'
+import enum1 from '../../assets/enum1.svg'
+import enum2 from '../../assets/enum2.svg'
+import enumApi from '../../assets/enumApi.svg'
+import resume from '../../assets/resume.svg'
+import weather from '../../assets/weather.svg'
 import todo from '../../assets/todo.png'
 
 

@@ -1,5 +1,5 @@
 import { useRef, useEffect } from 'react';
-import pfp from '../assets/person.png'
+import pfp from '../assets/person.svg'
 
 
 
@@ -21,7 +21,7 @@ export default function Home() {
     
     return<div className='media_container'>
             <div className='home_text_container'>
-                <h3>Hello,</h3>
+            
                 <div id="container">
                     <span ref={ref1 } id="text1"></span>
                     <span ref={ref2} id="text2"></span>
@@ -45,10 +45,10 @@ export default function Home() {
 
 const textChange = (elts) => {
     const texts = [
-        "I'm Shubhdeep Singh",
+        "Hello, I'm Shubhdeep Singh",
         "A front end",
-        "and a back end",
-        "fullstack Developer",
+        "And a back end",
+        "Fullstack Developer",
         "I do many creative things",
         "Scroll down to know more about me"
     ];
