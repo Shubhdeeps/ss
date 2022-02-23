@@ -7,7 +7,9 @@ import enum2 from '../../assets/enum2.svg'
 import enumApi from '../../assets/enumApi.svg'
 import resume from '../../assets/resume.svg'
 import weather from '../../assets/weather.svg'
-import todo from '../../assets/todo.png'
+import todo from '../../assets/todo.svg'
+import notes from '../../assets/notes.svg'
+import shopify from '../../assets/shopify.svg'
 
 
 const projects = [{
@@ -21,6 +23,18 @@ const projects = [{
     base: 'A Reactjs based web application, where a user can check the composition of the hidden ingredients in packaged food',
     image: enum2,
     link: 'https://shubhdeeps.github.io/enum/'
+},
+{
+    name: 'Notes App',
+    base: 'A React, bootstrap 5 and typescript based notes app',
+    image: notes,
+    link: 'https://shubhdeeps.github.io/typescript-todo-notes/'
+},
+{
+    name: 'Shopify',
+    base: 'A React, react-router and react redux based shopping application',
+    image: shopify,
+    link: 'https://shubhdeeps.github.io/shopify/'
 },
 {
     name: 'Candy Crush Game clone',
@@ -59,7 +73,7 @@ const projects = [{
     base: 'A Reactjs based weather application',
     image: weather,
     link: 'https://shubhdeeps.github.io/weather/'
-}
+},
 ]
 
 export default function SectionFour(){
