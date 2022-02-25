@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/ss/static/css/main.dd8f4bc9.css",
-    "main.js": "/ss/static/js/main.2dc10395.js",
+    "main.css": "/ss/static/css/main.34c7564b.css",
+    "main.js": "/ss/static/js/main.51f46e5a.js",
     "static/media/shopify.svg": "/ss/static/media/shopify.9abdd519aabf058ea13811fb182352ca.svg",
     "static/media/person.svg": "/ss/static/media/person.bcaca93b86cdae0dc2109737ddf65e65.svg",
     "static/media/weather.svg": "/ss/static/media/weather.1caaf0e01abd0a31ae72e50123be51b6.svg",
@@ -14,11 +14,11 @@
     "static/media/astro.svg": "/ss/static/media/astro.62415e100f0fff3724fa02a723f8069b.svg",
     "static/media/todo.svg": "/ss/static/media/todo.4fcecba5ad86d4962c6ab4558c44be61.svg",
     "index.html": "/ss/index.html",
-    "main.dd8f4bc9.css.map": "/ss/static/css/main.dd8f4bc9.css.map",
-    "main.2dc10395.js.map": "/ss/static/js/main.2dc10395.js.map"
+    "main.34c7564b.css.map": "/ss/static/css/main.34c7564b.css.map",
+    "main.51f46e5a.js.map": "/ss/static/js/main.51f46e5a.js.map"
   },
   "entrypoints": [
-    "static/css/main.dd8f4bc9.css",
-    "static/js/main.2dc10395.js"
+    "static/css/main.34c7564b.css",
+    "static/js/main.51f46e5a.js"
   ]
 }
